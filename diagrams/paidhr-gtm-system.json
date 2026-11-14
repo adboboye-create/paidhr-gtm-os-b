@@ -224,7 +224,7 @@
   },
   "a1": {
    "kind": "step",
-   "title": "Create deal, alert the sender",
+   "title": "Create deal, alert sender",
    "w": 300,
    "h": 70,
    "tools": [
