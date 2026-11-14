@@ -1,0 +1,346 @@
+{
+  "meta": {
+    "blocked": [],
+    "elapsed_ms": 2263,
+    "from_cache": false,
+    "llm_calls": 0,
+    "pages_fetched": 7,
+    "partial": false,
+    "warnings": [
+      "module: x-user-tweets: @getPaidHR · 20 posts"
+    ]
+  },
+  "recipe": "x-user-tweets",
+  "rows": [
+    {
+      "author": "getPaidHR",
+      "created": "2026-11-13T15:08:38Z",
+      "id": "2121258944437817698",
+      "is_retweet": false,
+      "likes": 1,
+      "quotes": 0,
+      "replies": 0,
+      "retweets": 1,
+      "text": "Something new is coming to PaidHR. 👀\n\nBetter ways to manage career progression are on the way. Stay tuned! 💙 https://t.co/xGQvFEahIv",
+      "url": "https://x.com/getPaidHR/status/2121258944437817698"
+    },
+    {
+      "author": "getPaidHR",
+      "created": "2026-11-10T09:59:13Z",
+      "id": "2120093915315589250",
+      "is_retweet": false,
+      "likes": 0,
+      "quotes": 0,
+      "replies": 0,
+      "retweets": 1,
+      "text": "Need help finding your way around PaidHR? \n\nMeet PaidGuide, your AI-powered assistant that helps you navigate the platform, discover features, and find what you need faster.\n\nExplore PaidGuide on PaidHR today. 💙 https://t.co/FDhoczNwUX",
+      "url": "https://x.com/getPaidHR/status/2120093915315589250"
+    },
+    {
+      "author": "getPaidHR",
+      "created": "2026-11-04T10:08:39Z",
+      "id": "2117921961053683881",
+      "is_retweet": false,
+      "likes": 1,
+      "quotes": 0,
+      "replies": 0,
+      "retweets": 0,
+      "text": "From PaidGuide and PaidRight to our WhatsApp and USSD features, we’re helping businesses simplify HR, support employees and do more with one platform.\n\nDiscover what PaidHR can do for your business, book a demo today 💙 https://t.co/smohyGIikq",
+      "url": "https://x.com/getPaidHR/status/2117921961053683881"
+    },
+    {
+      "author": "getPaidHR",
+      "created": "2026-10-26T15:41:41Z",
+      "id": "2114744282125074564",
+      "is_retweet": false,
+      "likes": 13,
+      "quotes": 1,
+      "replies": 1,
+      "retweets": 2,
+      "text": "Meet the new ways to work with PaidHR. \n\nFrom requesting payslips and applying for leave to accessing Earned Wage Access, employees can now access essential HR services through PaidHR’s WhatsApp Bot and our USSD code, right from their phones. https://t.co/TxMxPFYS7J",
+      "url": "https://x.com/getPaidHR/status/2114744282125074564"
+    },
+    {
+      "author": "getPaidHR",
+      "created": "2026-10-07T12:50:35Z",
+      "id": "2107815853743845782",
+      "is_retweet": false,
+      "likes": 12,
+      "quotes": 0,
+      "replies": 0,
+      "retweets": 4,
+      "text": "So… are you being PaidRight? 👀\n\nWe pulled real payroll data from 25,000+ workers and 400+ employers to give you a clearer picture of what people actually earn.\n\nCurious where your salary sits? Click the link below to explore the full PaidRight report:\nhttps://t.co/UORTMH8ktP 💙 https://t.co/KBFN2eoFWl",
+      "url": "https://x.com/getPaidHR/status/2107815853743845782"
+    },
+    {
+      "author": "getPaidHR",
+      "created": "2026-01-28T11:00:03Z",
+      "id": "2016466296326529251",
+      "is_retweet": false,
+      "likes": 61,
+      "quotes": 5,
+      "replies": 4,
+      "retweets": 23,
+      "text": "Growth is exciting but with it comes responsibility. \n\n2025 asked more of us.\nHere’s what that looked like.\n\nRead our Year in Review live now:\nhttps://t.co/TA1teu9q4K https://t.co/gUtEDODpl5",
+      "url": "https://x.com/getPaidHR/status/2016466296326529251"
+    },
+    {
+      "author": "getPaidHR",
+      "created": "2025-12-03T11:08:49Z",
+      "id": "1996174781297656042",
+      "is_retweet": false,
+      "likes": 6,
+      "quotes": 0,
+      "replies": 1,
+      "retweets": 3,
+      "text": "You shouldn’t empty your paycheck just to survive till payday.\n\n#EWAbyPaidHR finds the balance by giving you caccess to what you’ve earned so far, while still ensuring you have money to go home with at the end of month. 💙\n\nLearn how it really works in this blog post made just for you: https://t.co/S6vAdgypCZ",
+      "url": "https://x.com/getPaidHR/status/1996174781297656042"
+    },
+    {
+      "author": "getPaidHR",
+      "created": "2025-11-06T13:58:36Z",
+      "id": "1986433037228216397",
+      "is_retweet": false,
+      "likes": 4,
+      "quotes": 0,
+      "replies": 0,
+      "retweets": 1,
+      "text": "We’re happy to see more businesses embracing #EWAbyPaidHR as a flexible financial benefit for their employees!\n\nTo keep the conversation going, we’re launching a new series where we’ll answer all your questions about how Earned Wage Access (EWA) works, especially on PaidHR.\n\nIt might seem risky to employers at first, but it’s not. EWA isn’t a loan or a gamble; it’s simply giving employees access to money they’ve already earned so it adds no risk to your business.\n\nGot questions about #EWAbyPaidHR? Drop them in the comments!\n\nIn the meantime, check out our blog post to learn more: https://t.co/MY2GwDlmA4",
+      "url": "https://x.com/getPaidHR/status/1986433037228216397"
+    },
+    {
+      "author": "getPaidHR",
+      "created": "2025-10-09T12:55:14Z",
+      "id": "1976270226976075821",
+      "is_retweet": false,
+      "likes": 41,
+      "quotes": 4,
+      "replies": 0,
+      "retweets": 9,
+      "text": "Some days it’s a quick fix. Other days it’s hours of teamwork and persistence. But every time a client breathes easier, that's a mission accomplished for us. 💙\n\nThis week, we’re celebrating the team that makes the magic happen, the people behind those wins, and the little moments that remind us why we love what we do.",
+      "url": "https://x.com/getPaidHR/status/1976270226976075821"
+    },
+    {
+      "author": "getPaidHR",
+      "created": "2025-09-16T11:50:37Z",
+      "id": "1967919044545376390",
+      "is_retweet": false,
+      "likes": 35,
+      "quotes": 0,
+      "replies": 0,
+      "retweets": 10,
+      "text": "Nvm. We’ve fixed it. ✨\n#ComingSoon",
+      "url": "https://x.com/getPaidHR/status/1967919044545376390"
+    },
+    {
+      "author": "getPaidHR",
+      "created": "2025-09-16T11:31:29Z",
+      "id": "1967914231896101342",
+      "is_retweet": false,
+      "likes": 22,
+      "quotes": 1,
+      "replies": 1,
+      "retweets": 3,
+      "text": "So, how is everyone getting their images to fit in the header? Please treat as urgent. 🙏🏾🚨 https://t.co/MXQZHdglxO",
+      "url": "https://x.com/getPaidHR/status/1967914231896101342"
+    },
+    {
+      "author": "getPaidHR",
+      "created": "2025-09-12T14:36:41Z",
+      "id": "1966511288030318667",
+      "is_retweet": false,
+      "likes": 19,
+      "quotes": 0,
+      "replies": 0,
+      "retweets": 2,
+      "text": "Nothing major, just us showing off our new office space again. This time, through the eyes of our friends and teammates.\n\nSpoiler: they love it! \n\nHere’s what they had to say. 💙 https://t.co/YUY3gNbtWB",
+      "url": "https://x.com/getPaidHR/status/1966511288030318667"
+    },
+    {
+      "author": "getPaidHR",
+      "created": "2025-08-22T13:21:57Z",
+      "id": "1958882334909874432",
+      "is_retweet": false,
+      "likes": 204,
+      "quotes": 4,
+      "replies": 6,
+      "retweets": 32,
+      "text": "We promised to show you our new space, and we’re thrilled to finally share a glimpse of it!\n\nThis milestone means a lot to us, and we’re grateful to everyone who came out to celebrate. Thank you for being part of our journey. You’re firmly in our story now. 💙\n\nOur visitors and employees had plenty to say about the new space. Stay tuned, more videos are on the way! ✨",
+      "url": "https://x.com/getPaidHR/status/1958882334909874432"
+    },
+    {
+      "author": "getPaidHR",
+      "created": "2025-08-15T11:48:34Z",
+      "id": "1956322117793804459",
+      "is_retweet": false,
+      "likes": 134,
+      "quotes": 1,
+      "replies": 7,
+      "retweets": 17,
+      "text": "Yes, we moved to a new office! 🥳\n\nIt’s the start of a brand-new chapter for us and for you, and we’re excited to have you with us on the journey.\n\nBefore we give you a tour of our new home, we spent our final day in Surulere reflecting on the memories that shaped us in a place that gave us room to grow.\n\nTears? Laughter? Maybe both. You’ll just have to watch and see. 🤭💙",
+      "url": "https://x.com/getPaidHR/status/1956322117793804459"
+    },
+    {
+      "author": "getPaidHR",
+      "created": "2025-06-23T11:19:56Z",
+      "id": "1937108356386132251",
+      "is_retweet": false,
+      "likes": 407,
+      "quotes": 15,
+      "replies": 24,
+      "retweets": 83,
+      "text": "You’ve heard the news. \n\nWe’ve raised $1.8 million in seed funding! 🚀\n\nFrom an idea on a whiteboard to a platform supporting thousands of workers across Nigeria, Kenya, and South Africa, it’s been quite the ride.\n\nThis raise, led by Accion Venture Lab with backing from our returning investors, helps us do what we do best:\n\n- Build better tools.\n- Offer smarter financial support.\n- Help African teams work and live better.\n\nTo every business that’s trusted us and every employee that’s used PaidHR, this win is yours too. 💙\n\nThis is our next chapter. And we’re bringing you along.\n\n🔗 Read the full story, from our side: https://t.co/01VnWF5oJO",
+      "url": "https://x.com/getPaidHR/status/1937108356386132251"
+    },
+    {
+      "author": "getPaidHR",
+      "created": "2025-05-20T11:08:44Z",
+      "id": "1924784348198273224",
+      "is_retweet": false,
+      "likes": 27,
+      "quotes": 2,
+      "replies": 0,
+      "retweets": 7,
+      "text": "We picked HR Day for a reason.\n\nBecause today isn’t just about applause,  it’s also about the kind of honesty that doesn’t make it into policies or exit interviews.\n\nSo, here’s Episode 00 of The Out of Office Pod, where we introduce the space for stories, reflections, and the kind of real talk that helps you feel less alone and understand the full picture of work. \n\nAnd the voice guiding it all? Your favourite HR buddy, @themmanuelfaith . Thoughtful, trusted, and not afraid to ask the questions that matter on your behalf.\n\nStart here. Pick a platform. Subscribe: https://t.co/deoDbwPLyM\n\nWelcome to the beginning. 💜🎧\n#TOOP",
+      "url": "https://x.com/getPaidHR/status/1924784348198273224"
+    },
+    {
+      "author": "getPaidHR",
+      "created": "2025-05-16T11:00:33Z",
+      "id": "1923332738242773302",
+      "is_retweet": false,
+      "likes": 150,
+      "quotes": 9,
+      "replies": 3,
+      "retweets": 25,
+      "text": "\"Wow! Your software is incredibleeee!\"\n\nChakam! 📸\n\nBefore you start complaining about our invoice.",
+      "url": "https://x.com/getPaidHR/status/1923332738242773302"
+    },
+    {
+      "author": "getPaidHR",
+      "created": "2025-05-09T11:01:05Z",
+      "id": "1920796158391193825",
+      "is_retweet": false,
+      "likes": 23,
+      "quotes": 215,
+      "replies": 10,
+      "retweets": 3,
+      "text": "Remote, Hybrid or Physical?",
+      "url": "https://x.com/getPaidHR/status/1920796158391193825"
+    },
+    {
+      "author": "getPaidHR",
+      "created": "2025-05-09T11:01:02Z",
+      "id": "1920796146953293861",
+      "is_retweet": false,
+      "likes": 18,
+      "quotes": 3,
+      "replies": 1,
+      "retweets": 4,
+      "text": "Work Edition Face-Off\nChoose your winner:",
+      "url": "https://x.com/getPaidHR/status/1920796146953293861"
+    },
+    {
+      "author": "getPaidHR",
+      "created": "2025-04-25T15:11:04Z",
+      "id": "1915785638399353062",
+      "is_retweet": false,
+      "likes": 79,
+      "quotes": 6,
+      "replies": 3,
+      "retweets": 18,
+      "text": "It was a fun-tastic learning retreat for the PaidHR team at Lakowe lakes last week. \n\nWith renewed minds and rededication, we came out ready to serve you even better!💙 https://t.co/icxT4v6nKk",
+      "url": "https://x.com/getPaidHR/status/1915785638399353062"
+    }
+  ],
+  "usage": {
+    "boxes": [
+      "gate",
+      "recipe"
+    ],
+    "cache": "miss",
+    "engine": "recipe",
+    "lines": [
+      {
+        "about": "the call",
+        "boxes": [
+          "gate"
+        ],
+        "cache": "miss",
+        "call": "recipes",
+        "engine": "gate",
+        "units": 1
+      },
+      {
+        "attempts": 1,
+        "cache": "api",
+        "call": "scrape",
+        "engine": "api",
+        "proxy": "isp",
+        "units": 1,
+        "url": "https://api.x.com/…"
+      },
+      {
+        "attempts": 1,
+        "cache": "api",
+        "call": "scrape",
+        "engine": "api",
+        "proxy": "isp",
+        "units": 1,
+        "url": "https://x.com/…"
+      },
+      {
+        "attempts": 1,
+        "cache": "api",
+        "call": "scrape",
+        "engine": "api",
+        "proxy": "isp",
+        "units": 1,
+        "url": "https://x.com/…"
+      },
+      {
+        "attempts": 1,
+        "cache": "api",
+        "call": "scrape",
+        "engine": "api",
+        "proxy": "isp",
+        "units": 1,
+        "url": "https://x.com/…"
+      },
+      {
+        "attempts": 1,
+        "cache": "api",
+        "call": "scrape",
+        "engine": "api",
+        "proxy": "isp",
+        "units": 1,
+        "url": "https://x.com/…"
+      },
+      {
+        "attempts": 1,
+        "cache": "api",
+        "call": "scrape",
+        "engine": "api",
+        "proxy": "isp",
+        "units": 1,
+        "url": "https://x.com/…"
+      },
+      {
+        "attempts": 1,
+        "cache": "api",
+        "call": "scrape",
+        "engine": "api",
+        "proxy": "isp",
+        "units": 1,
+        "url": "https://x.com/…"
+      }
+    ],
+    "remaining_before": {
+      "concurrent": 1368,
+      "requests": 1392,
+      "search": 2910
+    },
+    "units": 8
+  },
+  "version": 5
+}

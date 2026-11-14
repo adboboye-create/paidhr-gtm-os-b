@@ -1,0 +1,3 @@
+{
+  "detail": "no mobiusengine-jobs credential in this org — mobiusengine-jobs.jobs.company is a marketplace endpoint\n  connect one:  treg connections connect --provider mobiusengine-jobs\n  or add a key: treg secret add mobiusengine-jobs --env-var MOBIUSENGINE_JOBS_API_KEY\n  or register the tool yourself: treg tool add mobiusengine-jobs --base-url https://jobs-api.arihaan.ai …\nanother provider serves companies.jobs:\n  apollo.companies.jobs  ~$0.026/call  (callable now on treg's key)"
+}

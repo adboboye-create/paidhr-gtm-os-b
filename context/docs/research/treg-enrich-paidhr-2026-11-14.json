@@ -1,0 +1,105 @@
+{
+  "output": {
+    "name": "PaidHR",
+    "domain": "paidhr.com",
+    "description": "PaidHR provides an HR and payroll platform that helps businesses manage employee payroll, benefits, compliance, and recruitment.",
+    "industry": "Software Development",
+    "employees": 1,
+    "linkedin_url": "https://www.linkedin.com/company/getpaidhr"
+  },
+  "raw": {
+    "data": {
+      "country": "NG",
+      "description": "PaidHR provides an HR and payroll platform that helps businesses manage employee payroll, benefits, compliance, and recruitment.",
+      "domain": "paidhr.com",
+      "emails": [
+        "hello@paidhr.com"
+      ],
+      "industry": "Software Development",
+      "lang": "en-us",
+      "linkedin": "getpaidhr",
+      "logo_url": "https://www.google.com/s2/favicons?sz=256&domain_url=https://www.paidhr.com",
+      "mail_provider": "google",
+      "name": "PaidHR",
+      "people_count": 1,
+      "phones": [
+        "+2347071162732"
+      ],
+      "socials": {
+        "instagram": "https://www.instagram.com/getpaidhr",
+        "linkedin": "https://www.linkedin.com/company/getpaidhr/",
+        "x": "https://x.com/getPaidHR"
+      },
+      "tech": [
+        "google_tag_manager",
+        "wordpress"
+      ]
+    },
+    "meta": {
+      "took_ms": 25
+    }
+  },
+  "_treg": {
+    "served_by": "crawl4ai.companies.enrich",
+    "provider": "crawl4ai",
+    "tier": "platform",
+    "outcome": "hit",
+    "tried": [
+      {
+        "endpoint_id": "crawl4ai.companies.enrich",
+        "provider": "crawl4ai",
+        "outcome": "hit",
+        "status": 200,
+        "charged_micro": 1150
+      }
+    ],
+    "charged_micro": 1150,
+    "dropped": [
+      {
+        "endpoint_id": "blitzapi.companies.enrich",
+        "why": "needs {linkedin_url}"
+      },
+      {
+        "endpoint_id": "branddev.brand.retrieve-by-name",
+        "why": "needs {name}"
+      },
+      {
+        "endpoint_id": "branddev.brand.retrieve-by-email",
+        "why": "needs {email}"
+      },
+      {
+        "endpoint_id": "companyenrich.companies.enrich.by_properties",
+        "why": "needs {name} | {linkedin_url}"
+      },
+      {
+        "endpoint_id": "enrichlayer.company.profile",
+        "why": "needs {linkedin_url}"
+      },
+      {
+        "endpoint_id": "filtrat-finder.companies.enrich",
+        "why": "needs {linkedin_url}"
+      },
+      {
+        "endpoint_id": "harvestapi.linkedin.company.profile",
+        "why": "needs {linkedin_handle}"
+      },
+      {
+        "endpoint_id": "icypeas.companies.enrich",
+        "why": "needs {linkedin_url}"
+      },
+      {
+        "endpoint_id": "thecompaniesapi.companies.enrich_by_email",
+        "why": "needs {email}"
+      },
+      {
+        "endpoint_id": "datagma.companies.enrich",
+        "why": "datagma is paused on this deployment"
+      },
+      {
+        "endpoint_id": "dropleads.companies.enrich",
+        "why": "not selected for this routed request"
+      }
+    ]
+  }
+}
+treg: charged $0.00115 · call id 0869ea9005e340b6ac514c5c037459b3

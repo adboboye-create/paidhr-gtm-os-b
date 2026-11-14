@@ -30,3 +30,13 @@ PaidHR (paidhr.com): HR and payroll platform for African businesses. Full descri
 - Log every change in this week's work log (`work-log/YYYY-Www.md`) with a timestamp.
 
 ## Tools
+- **treg** (CLI): paid data lookups (enrichment, company and people data). Check the price with `treg catalog get <id>` before every call. Login lives in `.treg/` via `TREG_CONFIG`.
+- **Miro** (MCP): diagrams, such as GTM system maps and workflow flows.
+- **Notion** (MCP): where we publish finished docs. GitHub stays the source of truth; edit here first, then publish.
+
+## Skills (`.claude/skills/`, from gtm-starter-kit)
+- Strategy and copy: `signal-matrix` (ICP and signal matrix), `campaign-strategy` (outbound ideas), `build-workflow-spec` (one play into a spec), `campaign-copy` (emails and DMs from an approved spec), `prompt-builder` (per-row AI prompts).
+- Clay build: `campaign-contract`, `clay-build-plan`, `design-clay-table-json`, `import-clay-table`, `build-clay`, `save-clay-schema`, `export-tables`.
+- QA and cost: `campaign-qa`, `calculate-costs`, `workspace-cost-audit`, `inbox-placement-test`.
+- Research and visuals: `crawl4ai` (free site crawl), `agent-browser` (browser automation), `miro-gtm-flowchart` (GTM system on Miro).
+- Voice notes (from OpenWhispr): `openwhispr-cli` (notes and transcriptions from the terminal), `openwhispr-api` (REST API and MCP server reference).
