@@ -32,8 +32,9 @@ Source: https://www.paidhr.com/case-study (checked 2026-11-14). Each customer al
 
 ## Core customer profile (third party)
 
-- "Core customers are logistics, retail, and manufacturing businesses with fewer than 200 employees" (this is the summarizer's paraphrase of the release, not a confirmed exact quote).
-  Source: https://www.accion.org/news/paidhr-raises-1-8m-seed-round-led-by-accion-venture-lab-to-boost-africas-growing-workforce/ (2025-06-23, checked 2026-11-14)
+- "The majority of PaidHR's users are logistics, retail, and manufacturing businesses with under 200 employees, whose reliance on manual, time-consuming processes has created inefficiencies and compliance challenges." (exact quote, confirmed from page HTML)
+- Same release: "PaidHR has rapidly expanded to reach Pan-African small and medium-sized enterprises (SMEs) and tech startups across Nigeria, Kenya and South Africa."
+  Source: https://www.accion.org/news/paidhr-raises-1-8m-seed-round-led-by-accion-venture-lab-to-boost-africas-growing-workforce/ (2025-06-23, re-checked 2026-11-14)
 - **Pricing tiers by size:** Standard "20 - 100 Employees"; Enterprise "100+ Employees".
   Source: https://www.paidhr.com/pricing (checked 2026-11-14)
 - **INFERRED:** the named logos (fintechs) differ from the profile Accion describes (logistics, retail, manufacturing). The logos may be older or more brand-friendly, not representative.

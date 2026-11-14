@@ -43,7 +43,7 @@ Each signal lists the evidence that it matters. The step from evidence to "this 
 
 - **Evidence:** pricing tiers are "Standard" for "20 - 100 Employees" and "Enterprise" for "100+".
   Source: https://www.paidhr.com/pricing (checked 2026-11-14)
-- **Evidence:** core customers have "fewer than 200 employees" (summarizer's paraphrase).
+- **Evidence:** "The majority of PaidHR's users are logistics, retail, and manufacturing businesses with under 200 employees" (exact quote, re-checked 2026-11-14).
   Source: https://www.accion.org/news/paidhr-raises-1-8m-seed-round-led-by-accion-venture-lab-to-boost-africas-growing-workforce/ (checked 2026-11-14)
 - **INFERRED trigger:** headcount growth into 20 to 200, especially in logistics, retail or manufacturing.
 

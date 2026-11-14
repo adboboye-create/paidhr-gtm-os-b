@@ -7,12 +7,19 @@ Sources in [brackets] are files in `context/docs/research/`. INFERRED marks an i
 | Attribute | Fit | Source |
 |---|---|---|
 | Country | Nigeria first (Lagos HQ); also Kenya, South Africa | [company.md] |
-| Headcount | 20 to 100 (Standard tier); 100+ (Enterprise tier) | [company.md] pricing |
-| Core size per investor | "fewer than 200 employees" (paraphrase, unconfirmed) | [customers.md] |
-| Industries (core, per Accion) | Logistics, retail, manufacturing | [customers.md] |
-| Industries (named logos) | Fintech and tech (6 of 12), engineering, energy, research, shipping, food | [customers.md] |
-| Industries (videos) | Pharmacy tech (FAMASI), cross-border shipping (Heroshe) | [customer-videos.md] |
-| Stage | Funded startups appear often in named logos (Flutterwave, Mono, Risevest, GetEquity) | [customers.md] |
+| Headcount | 20 to 200. Floor: Standard tier starts at 20. Ceiling: "The majority of PaidHR's users are ... businesses with under 200 employees" | [company.md] pricing, [customers.md] |
+
+### Industries, ranked by evidence
+
+| Tier | Industries | Evidence | Use |
+|---|---|---|---|
+| 1. Primary | Logistics, retail, manufacturing | "The majority of PaidHR's users are logistics, retail, and manufacturing businesses" (Accion, June 2025, exact quote). Matching customers: Heroshe (shipping), ReelFruit (food manufacturing) | Build lists here first |
+| 2. Secondary | Tech startups, mainly fintech | Accion names "tech startups"; 6 of 12 named logos (Flutterwave, Mono, Risevest, GetEquity, Kredete, GO54); FAMASI video | Strongest logo proof, but not the majority of users |
+| No tier | Engineering (AEC, Sygnite), research (NOI Polls), restaurant tech (Mira) | One logo each, no story | Don't target as a segment |
+
+Watch-out: the logos PaidHR shows (tier 2) are not the customers it mostly has (tier 1). Copy aimed at tier 1 has only Heroshe and ReelFruit as matching proof, and ReelFruit is logo-only. [customers.md], [case-studies.md]
+
+Open questions: which retail and manufacturing customers exist (none named); whether the June 2025 mix still holds in 2026; win rates by industry.
 
 ## 2. Technographic
 
@@ -28,19 +35,26 @@ Open question: which named payroll or HR tools prospects use today. Not in resea
 
 ## 3. Intent signals
 
-| Signal | Why it matters | Source |
-|---|---|---|
-| Nigeria Tax Act payroll rules live since 1 Jan 2026 | New bands, rent relief, wider taxable benefits | [market.md], [signals.md] #1 |
-| Lagos employer, pension remitted by hand | PenCom and NLC enforcement in Lagos from June 2026; automated penalties | [market.md], [signals.md] #2 |
-| Former outsourced-payroll customer (e.g. Bento) | Bento paused Feb 2025 amid reported unremitted taxes and pensions | [competitors.md], [signals.md] #3 |
-| Fresh funding | Nigerian startups raised about $635M Jan to Sep 2026 | [market.md], [signals.md] #4 |
-| Headcount crossing 20 or 100 | Matches pricing tiers | [signals.md] #5 |
-| Shift, hourly or field staff | Geo-referenced attendance, EWA, USSD | [signals.md] #6 |
-| Staff turnover, salary advances by hand | EWA: N400m+ disbursed, 1500+ active users | [signals.md] #7 |
-| Staff paid in USD, GBP or abroad | $2M+ cross-border since Oct 2024 | [signals.md] #8 |
-| Calls from the tax office | Named as a pain by Heroshe | [customer-videos.md] |
+### Market-wide "why now" (true for every Nigerian employer: use for timing and copy, not for picking accounts)
+- Nigeria Tax Act payroll rules live since 1 Jan 2026; first annual PAYE return under them due 31 Jan 2027 (INFERRED). [market.md]
+- PenCom and NLC pension enforcement in Lagos from June 2026; automated penalties. [market.md]
 
-Untested (no evidence in research): new HR or finance leader, hiring for payroll roles. [signals.md] #9, #10
+### Account-level signals
+
+Evidence key: **Customer** = a PaidHR customer named it as their trigger. **PaidHR claim** = only PaidHR's marketing supports it. **Inferred** = no direct evidence.
+
+| Signal | How to spot it in one account | Evidence it predicts a purchase | Source |
+|---|---|---|---|
+| Team growing past 20 staff | Headcount from LinkedIn or enrichment. Caveat: treg enrichment returned 1 employee for PaidHR itself, so check headcount by hand | **Customer**: FAMASI CEO, "as a team [grew] we realized there was a need for a more sustainable HR solution" | [customer-videos.md], [company.md] |
+| Statutory remittance pain (slow filings, tax office calls) | Hard to see from outside. Proxy: Lagos employer in a sector PenCom has already targeted (electricity) | **Customer**: Heroshe, "two weeks or more", "calls from the tax office" | [customer-videos.md], [market.md] |
+| Recent funding round | Funding announcements in Nigerian tech press (Nairametrics, TechCabal, Techpoint) | **Inferred**: named logos skew funded startups; no customer said funding triggered the buy | [customers.md], [market.md] |
+| Shift, hourly or field workforce | Job postings for field or shift roles (treg `apollo.companies.jobs`, about $0.026 per call, untested) | **PaidHR claim**: attendance, EWA and USSD features | [signals.md], raw/treg-jobs-paidhr-2026-11-14.json |
+| Staff paid in USD, GBP or outside Nigeria | Job posts in other countries; remote roles | **PaidHR claim**: $2M+ cross-border since Oct 2024 | [company.md] |
+| Former outsourced-payroll customer (e.g. Bento) | No list of affected companies in research | **Inferred** and 21 months old; most have likely moved | [competitors.md], [signals.md] #3 |
+
+Use for list building now: team growth and recent funding (both observable). Use remittance pain as the message, not the filter: it is the best-evidenced pain but cannot be seen from outside.
+
+Not observable from outside: staff turnover and manual salary advances. Untested: new HR or finance leader, hiring for payroll roles. [signals.md] #7, #9, #10
 
 ## 4. Persona
 
