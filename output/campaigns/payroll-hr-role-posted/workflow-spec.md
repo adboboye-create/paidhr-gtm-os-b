@@ -1,6 +1,6 @@
 # Workflow spec: Payroll or HR role posted (Nigeria, Kenya, Ghana)
 
-**Status:** STRUCTURE-APPROVED 2026-11-14 · amended 2026-11-14 (100-day cooldown; Nigeria + Kenya + Ghana; HR leads who joined from another company only; S6 never empty) · COPY-APPROVED 2026-11-14 (Nigeria only; E1 CEO + HR lead, E2, E3; 4 review fixes applied 2026-11-14) · Kenya and Ghana unblocked 2026-11-14 (PaidHR filing in KE and GH confirmed by user; KE/GH copy still to write) · launch blocked on facts.md sign-off and sender identity
+**Status:** STRUCTURE-APPROVED 2026-11-14 · amended 2026-11-14 (100-day cooldown; Nigeria + Kenya + Ghana; HR leads who joined from another company only; S6 never empty) · COPY-APPROVED 2026-11-14 (Nigeria only; E1 CEO + HR lead, E2, E3; 4 review fixes applied 2026-11-14) · Kenya and Ghana unblocked 2026-11-14 (PaidHR filing in KE and GH confirmed by user; KE/GH copy still to write) · launch blocked on sender identity (PaidHR sign-off not required, user decision 2026-11-14)
 
 Built with `/build-workflow-spec` from idea **C1** in [campaign-strategy.md](../campaign-strategy.md). Methodology: [workflow-anatomy.md](../../../knowledge-base/playbooks/workflow-anatomy.md), [signal-matrix-framework.md](../../../knowledge-base/playbooks/signal-matrix-framework.md). Signal matrix row: **U1** in [signal-matrix.md](../../../context/icp/signal-matrix.md). Every name, number and claim comes from [facts.md](../../../context/messaging/facts.md) or `context/`. Anything unverified is a `{{placeholder}}` or marked TBD/INFERRED.
 
@@ -147,7 +147,7 @@ Copy can't mention headcount, funding, number of open roles, salary or any JD co
 ## Copy
 
 **Scope:** Nigeria only (S10 = NG). Channel: email only. Sequence: 3 emails, day 0, 3, 10; CEO and HR lead in parallel threads; a reply from either stops both. Kenya and Ghana copy not yet written; facts.md lines approved 2026-11-14, so run `/campaign-copy` for KE and GH when ready.
-**Facts status:** every fact used is in [facts.md](../../../context/messaging/facts.md) but still "Approved by: Open". PaidHR sign-off required before launch. FAMASI wording still to be checked against the video.
+**Facts status:** every fact used is in [facts.md](../../../context/messaging/facts.md). PaidHR sign-off is not required (user decision 2026-11-14, facts.md sign-off policy). Still re-check the FAMASI and Heroshe video wording before launch.
 
 ### Email 1 (day 0, new thread)
 
@@ -294,4 +294,4 @@ If payroll and filings sit with someone else at {{company_name}}, {who would be 
 - ₦934M PAYE, ₦754M pension (2025); ₦119.2bn payroll 2026 YTD: facts.md approved claims (PaidHR's own figures, self-reported).
 - Not used: payslips, leave, EWA, on-time claim, logo names.
 
-**Blocks launch:** facts.md approval is Open for every line above; `{{sender_signature}}` (sender name and title) is TBD in facts.md; weekly volume TBD.
+**Blocks launch:** `{{sender_signature}}` (sender name and title) is TBD in facts.md; weekly volume TBD.
