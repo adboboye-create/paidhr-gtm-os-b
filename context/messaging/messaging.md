@@ -12,7 +12,7 @@ Sources: [company.md], [customer-videos.md]
 
 | Pillar | Message | Proof points | Source |
 |---|---|---|---|
-| 1. Compliance with proof | PAYE, pension, NHF and NSITF filed automatically, receipts after each remittance | ₦934M PAYE and ₦754M pension processed in 2025 (own claim); Heroshe: receipts within about two days | [company.md], [customer-videos.md] |
+| 1. Compliance with proof | PAYE, pension, NHF and NSITF filed automatically, receipts after each remittance | ₦934M PAYE and ₦754M pension processed in 2025 (own claim); Heroshe: a receipt after each remittance, versus "two weeks or more" before | [company.md], [customer-videos.md] |
 | 2. Payroll without the manual work | Payroll on any schedule; staff see their own payslips | FAMASI CEO saved about one hour per payroll run; ₦119.2bn payroll processed in 2026 YTD (own claim) | [customer-videos.md], [company.md] |
 | 3. Financial wellbeing at no cost to the employer | EWA and Loan Marketplace; PaidHR or the lender carries the risk | EWA N400m+ disbursed, 1500+ active users; Yield Bank partner | [company.md] |
 | 4. Ready for the new tax law | Updated for the Nigeria Tax Act, effective 1 January 2026 | Own claim on homepage | [voice.md], [market.md] |

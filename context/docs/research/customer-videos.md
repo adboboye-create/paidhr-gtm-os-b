@@ -2,6 +2,8 @@
 
 Raw research, not conclusions. All videos checked 2026-11-14.
 
+> **Update 2026-11-14:** the videos have been re-transcribed with Whisper large-v3 and cross-checked against the captions. Use [social-proof-sources.md](social-proof-sources.md) for quotes (more accurate, with timestamped links). The caption-based quotes below are kept for reference.
+
 ## How these were made
 
 - **Videos:** found by reading the embedded YouTube links on https://www.paidhr.com/customers.
@@ -68,7 +70,7 @@ Source: https://youtu.be/1L3R7CMEmjI (checked 2026-11-14)
 
 ### Numbers
 - **Before:** "you have to wait for two weeks or more to get that processed"
-- **After:** receipts came "in I think the next two days"
+- **After:** a receipt after each remittance (00:08), and a call "I think the next two days" confirming the payments were processed and remitted (01:13). Corrected 2026-11-14: this is a confirmation call, not receipts.
 - **Speed:** "in less than a click I noticed that the payments had gone"
 
 ### Quotes

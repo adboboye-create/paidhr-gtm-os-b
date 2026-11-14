@@ -1,0 +1,29 @@
+Source: https://youtu.be/1L3R7CMEmjI
+Transcribed 2026-11-14 with Whisper large-v3 (faster-whisper, local, int8) from the YouTube audio track.
+Prompted with spellings: PaidHR, Pade, FAMASI, Heroshe, Adeola Ayoola, Michelle, payroll, remittance, PAYE, pension, NHF, payslip.
+Cross-checked against YouTube auto-captions (video-transcript-heroshe-1L3R7CMEmjI.txt). Corrections in [square brackets]; [UNCLEAR] = the two transcripts disagree and neither is reliable.
+Timestamps [mm:ss] are segment starts. Link to a moment with https://youtu.be/1L3R7CMEmjI?t=<seconds>.
+
+[00:00] What I've noticed about most HR software is the fact that they are unable to help most HR professionals process statutory deductions, which has been a pain to most of us.
+[00:08] But with Pade, you're able to get your statutory deductions remitted and you also get a receipt once you're able to remit your payment, which just gives you an assurance that you've not just made payment, but you've gotten an evidence for the payment you've made.
+[00:21] My name is Michelle [Adaware, per YouTube description]. I'm a [UNCLEAR: "P4O" / "T4 operations"] Specialist here at Heroshe. We are a service-oriented business that deals with cross-border shipping.
+[00:34] In other words, you can get quality and affordable products from the US and UK down to Nigeria and Ghana, and the good thing is you get them in record time.
+[00:41] So like I said earlier, the major HR problem or challenge I've faced in a couple of years would be remitting statutory deductions.
+[00:49] It's always a pain in the head because you have to wait for two weeks or more to get that processed.
+[00:54] And sometimes you keep getting calls from the tax office and honestly, it could be really overwhelming.
+[01:00] I remember the first time when I used Pade to remit my statutory deductions.
+[01:04] It was so fast because in less than a click, I noticed that the payment had gone.
+[01:09] I was even able to see like a summary of all the payments we need to make.
+[01:13] And I got a call in, I think the next two days, telling me that my payments had been processed and remitted.
+[01:18] [UNCLEAR: "So honestly, I think Pade is so hard with statutory deductions." Captions: "it's superb good for self training terms"]
+[01:22] I would say Pade has helped to simplify.
+[01:24] I would say Pade has helped to simplify my job as an HR professional because every single time when I need employees to get their payslip, they always reach out to me and I have to do the manual process.
+[01:32] But with Pade, once they get their payment, they see their payslip and that burden just goes off my neck.
+[01:37] I also get notifications for their anniversaries.
+[01:40] I think they are more or less HR operational tasks, which is not what I'm focused on.
+[01:44] So I leave the software to do the operational tasks and I do the strategic tasks.
+[01:48] And so for me, I would recommend Pade to any HR professional.
+[01:51] If you're a young HR professional or even if you're mid-level.
+[01:54] I think Pade will help you to do a great job.
+[01:56] For safe and affordable shipping, you can reach out to us on Instagram, on our website and on Twitter.
+[02:02] Speak to you soon and bye for now.

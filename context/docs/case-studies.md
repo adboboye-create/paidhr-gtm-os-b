@@ -1,13 +1,13 @@
 # PaidHR customer stories
 
-Every customer story found in `context/docs/research/`. Video quotes are YouTube auto-captions with corrections in [square brackets]; check against the video before use. Last updated 2026-11-14.
+Every customer story found in `context/docs/research/`. Video quotes are from Whisper transcripts cross-checked against YouTube captions; full quote bank with timestamps in [research/social-proof-sources.md](research/social-proof-sources.md). Check against the video before use. Last updated 2026-11-14.
 
 ## Stories with content
 
 | Customer | Size | Industry | Problem | Result | Quote | Source |
 |---|---|---|---|---|---|---|
-| FAMASI | Not found | Pharmacy software ("the OS for pharmacies in Emerging Markets") | Manual remittances and pay confirmation; about one hour per payroll run; other tools not simple | That hour saved; payroll reminders, reports, remittances in one place; CEO recommends it | "I have that one hour [saved] ... being rest assured that [Pade] has my people paid" (Adeola Ayoola, CEO and co-founder) | https://youtu.be/thPhRuim05g ([customer-videos.md]) |
-| Heroshe (video) | Not found | Cross-border shipping to Nigeria and Ghana | Statutory remittance took "two weeks or more"; calls from the tax office; staff pay queries | Remittance "in less than a click"; receipts in about two days; staff self-serve payslips | "you also gets a receipts ... which just gives you an assurance that you've not just made payment but you've gotten an evidence for the payment you've made" (Michelle Adaware) | https://youtu.be/1L3R7CMEmjI ([customer-videos.md]) |
+| FAMASI | Not found | Pharmacy software ("the OS for pharmacies in Emerging Markets") | Manual remittances and pay confirmation; about one hour per payroll run; other tools not simple | That hour saved; payroll reminders, reports, remittances in one place; CEO recommends it | "With Pade, I have that one hour saved ... while being rest assured that Pade has my people paid" (Adeola Ayoola, CEO and co-founder) | https://youtu.be/thPhRuim05g ([customer-videos.md]) |
+| Heroshe (video) | Not found | Cross-border shipping to Nigeria and Ghana | Statutory remittance took "two weeks or more"; calls from the tax office; staff pay queries | Remittance "in less than a click"; a receipt after each remittance; a call "I think the next two days" confirming payments were remitted; staff self-serve payslips | "with Pade, you're able to get your statutory deductions remitted and you also get a receipt once you're able to remit your payment, which just gives you an assurance that you've not just made payment, but you've gotten an evidence for the payment you've made" (Michelle Adaware) | https://youtu.be/1L3R7CMEmjI ([customer-videos.md]) |
 | Heroshe (written) | Not found | Shipping | "Managing Heroshe's distributed workforce and being compliant" | "How Heroshe stays 100% Tax compliant with Pade." | "We were concerned about all the compliance, but now we know we can trust Pade to manage our remittance 100% right, for our people and for our business," (Adewunmi) | https://www.paidhr.com/customers/heroshe ([customers.md]) |
 
 Caveats:

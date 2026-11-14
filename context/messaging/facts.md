@@ -38,7 +38,7 @@ Product one-liner (context, not copy): all-in-one HR, payroll and statutory remi
 | Tax law | "Fully updated for Nigeria's new tax law, effective 1 January 2026" | paidhr.com homepage (voice.md) | Open |
 | Funding | $1.8M seed led by Accion Venture Lab (June 2025) | Accion release (company.md) | Open |
 | FAMASI result | Saved about one hour per payroll run | https://youtu.be/thPhRuim05g (customer-videos.md) | Open; verify wording against video |
-| Heroshe result | Remittance in a click; receipts within about two days, versus "two weeks or more" | https://youtu.be/1L3R7CMEmjI (customer-videos.md) | Open; verify wording against video |
+| Heroshe result | Remittance "in less than a click"; a receipt after each remittance; a call "I think the next two days" confirming it was remitted; versus "two weeks or more" before | https://youtu.be/1L3R7CMEmjI?t=41 (research/social-proof-sources.md H2, H3, H5, H6) | Open; Whisper-checked, still needs a human listen |
 
 **Formatting rules for proof:**
 - Write "PaidHR", never "Pade", except inside a quoted 2023 video line.

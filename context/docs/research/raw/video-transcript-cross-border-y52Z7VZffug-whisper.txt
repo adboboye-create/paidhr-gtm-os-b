@@ -1,0 +1,23 @@
+Source: https://youtu.be/y52Z7VZffug
+Transcribed 2026-11-14 with Whisper large-v3 (faster-whisper, local, int8) from the YouTube audio track.
+Prompted with spellings: PaidHR, Pade, FAMASI, Heroshe, Adeola Ayoola, Michelle, payroll, remittance, PAYE, pension, NHF, payslip.
+Cross-checked against YouTube auto-captions (video-transcript-cross-border-y52Z7VZffug.txt). Corrections in [square brackets]; [UNCLEAR] = the two transcripts disagree and neither is reliable.
+Timestamps [mm:ss] are segment starts. Link to a moment with https://youtu.be/y52Z7VZffug?t=<seconds>.
+
+[00:00] When your team is spread across borders, managing payroll becomes more than numbers.
+[00:06] It's a race against time, currency fluctuations, and regulation.
+[00:11] Whether they are down the [hall] or across the ocean, it's your job to get it right, on time, and in the correct currency.
+[00:20] But the stress of multiple currencies and [tools]?
+[00:23] That shouldn't be a burden.
+[00:25] [Introducing] Cross Border by [PaidHR].
+[00:29] Pay salaries and more to your global team wherever they are in the world.
+[00:33] From your single [PaidHR] dashboard, no more juggling between local and global payroll tools or wallet.
+[00:40] Everything happens in real time, in one place.
+[00:43] Reach your international team in 150 countries and 49 currencies.
+[00:49] For your employees, it's more than just receiving their salary.
+[00:53] It's freedom to put their money in action.
+[00:56] To convert, spend, or save their money from one app in any currency of choice.
+[01:03] With Cross Border by [PaidHR], your money moves where you want, when you want, and without going through hoops and [hurdles].
+[01:11] Stay connected and compliant no matter where your employees are.
+[01:15] Cross Border by [PaidHR].
+[01:17] Payroll redefined for the global modern workforce.

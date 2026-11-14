@@ -1,0 +1,33 @@
+Source: https://youtu.be/thPhRuim05g
+Transcribed 2026-11-14 with Whisper large-v3 (faster-whisper, local, int8) from the YouTube audio track.
+Prompted with spellings: PaidHR, Pade, FAMASI, Heroshe, Adeola Ayoola, Michelle, payroll, remittance, PAYE, pension, NHF, payslip.
+Cross-checked against YouTube auto-captions (video-transcript-famasi-thPhRuim05g.txt). Corrections in [square brackets]; [UNCLEAR] = the two transcripts disagree and neither is reliable.
+Timestamps [mm:ss] are segment starts. Link to a moment with https://youtu.be/thPhRuim05g?t=<seconds>.
+
+[00:00] Prior to using Pade, everything was manual, like you have to make remittances manually,
+[00:04] have to manually confirm that remittances have been done, also have to individually
+[00:08] text people to confirm that they have received their payments. It was stressful.
+[00:17] Hi, my name is Adeola Ayoola. I'm the CEO and co-founder at FAMASI. We're building the OS for
+[00:21] pharmacies in emerging markets by building software and APIs that allow businesses and
+[00:25] individuals connect to pharmacies. Everything was very manual before using Pade. I mean,
+[00:30] for remittances, I had to do them individually and also go and confirm that the payments have been
+[00:35] processed. Also, with paying salaries, I had to individually text everyone on the team to confirm
+[00:40] that they have received their payments. I had to earmark about one hour of the day whenever I
+[00:44] [sat down] to run payroll just to manually make payments. As the team grew, we realized there
+[00:48] was a need for a more sustainable HR solution. And I checked out a couple of them, but it just
+[00:53] didn't seem very simple to use. And then I stumbled on Pade and it looked very simple,
+[00:57] so I decided to give it a try. With Pade, I have that one hour
+[01:00] saved and I mean, in entrepreneurship, time is very important. So I have that one hour saved
+[01:04] to be able to focus on other things while being rest assured that Pade has my people paid.
+[01:10] I would definitely recommend Pade to other people. I have been recommending already. I feel like I
+[01:15] have like referral bonuses stacked up already if you have that kind of thing. It has made my life
+[01:20] simpler. I get a notification before it's payroll day to say, do you want to run your payroll? It's
+[01:25] easy for me to see the reports. It's easy for me to make the remittances. It's just a very simple
+[01:29] interface to use, really. [Whisper repeated this sentence here; captions show it once, repeat removed]
+[01:30] And I think that
+[01:31] everyone should get on it. And looking at the exciting features that they have coming in the
+[01:34] nearest future, I really can't wait to see it. I'm particularly excited for the solutions that
+[01:39] make it easier for my team to enjoy the work that they do and access other services. So really
+[01:44] looking forward to that. Like I said earlier, our mission at [FAMASI] is to make it simpler for
+[01:48] everyone to access their medications, and that includes you and your loved ones. So definitely
+[01:53] reach out to us on our website or social media handles and we'll be there for you. Thank you. Bye.
