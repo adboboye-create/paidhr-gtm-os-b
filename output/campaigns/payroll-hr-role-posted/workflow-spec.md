@@ -158,8 +158,8 @@ Copy can't mention headcount, funding, number of open roles, salary or any JD co
 #### CEO lens (approved 2026-11-14)
 
 **L1 (`{{e1l1}}`)**
-+ A (S4 = payroll_role AND S5 = true): From the {{job_title}} post on {{job_board}}, filing {{remittances_named}} is part of the job, so my guess is those filings have outgrown being a side task.
-+ B (S4 = payroll_role AND S5 = false): Hiring a {{job_title}} tells me the monthly payroll run at {{company_name}} probably needs its own owner now.
++ A (S4 = payroll_role AND S5 = true): Your {{job_title}} post on {{job_board}} lists filing {{remittances_named}}, so I'm guessing those filings now need one person who owns them every month.
++ B (S4 = payroll_role AND S5 = false): You're hiring a {{job_title}}, so I'm guessing payroll at {{company_name}} has grown into a job of its own.
 + C (S4 = hr_role AND S5 = true): The {{job_title}} post on {{job_board}} includes filing {{remittances_named}}, so I'd guess those filings will sit on the HR desk next to everything else.
 + D (S4 = hr_role AND S5 = false): Hiring for the {{job_title}} role suggests {{company_name}} is building out HR, and payroll probably still sits with you or finance for now.
 
@@ -183,7 +183,7 @@ Copy can't mention headcount, funding, number of open roles, salary or any JD co
 >
 > Tunde,
 >
-> From the Payroll Officer post on Jobberman, filing PAYE and pension is part of the job, so my guess is those filings have outgrown being a side task.
+> Your Payroll Officer post on Jobberman lists filing PAYE and pension, so I'm guessing those filings now need one person who owns them every month.
 >
 > PaidHR files PAYE and pension and sends a receipt after each remittance, so whoever you hire checks receipts instead of doing the filing.
 >
@@ -199,14 +199,14 @@ Same subject, CTA and body shape as the CEO lens. Proof lines are the CEO-lens p
 
 **L1 (`{{e1l1}}`)**
 + A: The {{job_title}} role your team has open on {{job_board}} includes filing {{remittances_named}}, so I imagine you'll be handing those filings to the new hire soon.
-+ B: Adding a {{job_title}} to your team probably means the monthly payroll run at {{company_name}} is getting its own owner.
++ B: With a {{job_title}} joining your team, I imagine you'll be the one checking the monthly run once they start.
 + C: The {{job_title}} post on {{job_board}} lists filing {{remittances_named}}, which I'd guess is one more task you'd hand over and then keep checking.
 + D: With a new {{job_title}} joining HR at {{company_name}}, my guess is you're deciding how payroll and remittance will run as the team grows.
 
 **L2 (`{{e1l2}}`)**
 + A: PaidHR files {{remittances_named}} and sends a receipt after each remittance, so the person joining your team starts by checking receipts, not filing.
 + B: PaidHR runs payroll and files PAYE, pension, NHF and NSITF along with it, so your new hire reviews each run rather than building it.
-+ C: PaidHR files {{remittances_named}} with a receipt after each remittance, so there is one less task to hand over and check.
++ C: PaidHR files {{remittances_named}} and sends a receipt after each remittance, so what you check is a receipt, not the filing itself.
 + D: PaidHR keeps payroll and PAYE, pension, NHF and NSITF remittance in one place, so the person joining starts on the system you choose.
 
 **Sample (cell C, HR lead):**
@@ -217,7 +217,7 @@ Same subject, CTA and body shape as the CEO lens. Proof lines are the CEO-lens p
 >
 > The HR Officer post on MyJobMag lists filing PAYE, pension and NHF, which I'd guess is one more task you'd hand over and then keep checking.
 >
-> PaidHR files PAYE, pension and NHF with a receipt after each remittance, so there is one less task to hand over and check.
+> PaidHR files PAYE, pension and NHF and sends a receipt after each remittance, so what you check is a receipt, not the filing itself.
 >
 > Heroshe's HR team used to wait "two weeks or more" for remittance. Now it happens "in less than a click", and a receipt follows.
 >
@@ -229,15 +229,16 @@ Same subject, CTA and body shape as the CEO lens. Proof lines are the CEO-lens p
 
 **Subject:** `Re:` + the Email 1 subject (unchanged).
 
-**Body shape:** `{{first_name}},` then L1, L2, CTA, `{{sender_signature}}`. Routes exhaustive by cell group, no fallback. New value versus Email 1: the tax-law update plus PaidHR's own volume figures.
+**Body shape:** `{{first_name}},` then L1 (static), L2 (dynamic), CTA, `{{sender_signature}}`. Routes exhaustive by cell group, no fallback. New value versus Email 1: the annual PAYE return date, the tax-law update and PaidHR's own volume figures.
 
-**L1 (`{{e2l1}}`)**
-+ A, C: Whoever takes on {{remittances_named}} at {{company_name}} will be filing under Nigeria's new tax law, which took effect on 1 January 2026, and PaidHR is fully updated for it.
-+ B, D: Whoever takes the {{job_title}} role will likely be working with payroll under Nigeria's new tax law, which took effect on 1 January 2026, and PaidHR is fully updated for it.
+**Send window:** L1 names the 31 January annual PAYE return, so Email 2 is valid only for sends before 31 January 2027. Rewrite L1 before any later send.
+
+**L1 (static, every cell)**
+`{One date worth knowing|One date to keep in mind} for whoever takes the {{job_title}} role: the annual PAYE return is due by 31 January, {and it's probably the first one|which is probably the first one} under the new tax law.`
 
 **L2 (`{{e2l2}}`)**
-+ A, C: In 2025, PaidHR filed ₦934M in PAYE and processed ₦754M in pension.
-+ B, D: So far in 2026, PaidHR has processed ₦119.2bn in payroll.
++ A, C: PaidHR is fully updated for that law, and in 2025 it filed ₦934M in PAYE and processed ₦754M in pension.
++ B, D: PaidHR is fully updated for that law, and it has processed ₦119.2bn in payroll so far in 2026.
 
 **CTA (static):** `{Would it help to see one month of payroll and filings in PaidHR?|Want to see what one month of payroll and filings looks like in PaidHR?}`
 
@@ -247,9 +248,9 @@ Same subject, CTA and body shape as the CEO lens. Proof lines are the CEO-lens p
 >
 > Tunde,
 >
-> Whoever takes the Payroll Specialist role will likely be working with payroll under Nigeria's new tax law, which took effect on 1 January 2026, and PaidHR is fully updated for it.
+> One date worth knowing for whoever takes the Payroll Specialist role: the annual PAYE return is due by 31 January, and it's probably the first one under the new tax law.
 >
-> So far in 2026, PaidHR has processed ₦119.2bn in payroll.
+> PaidHR is fully updated for that law, and it has processed ₦119.2bn in payroll so far in 2026.
 >
 > Would it help to see one month of payroll and filings in PaidHR?
 >
@@ -292,6 +293,8 @@ If payroll and filings sit with someone else at {{company_name}}, {who would be 
 - PAYE, pension, NHF and NSITF filing: facts.md value prop variant A.
 - "Fully updated for Nigeria's new tax law, effective 1 January 2026": facts.md Tax law.
 - ₦934M PAYE, ₦754M pension (2025); ₦119.2bn payroll 2026 YTD: facts.md approved claims (PaidHR's own figures, self-reported).
+- Annual PAYE return "due by 31 January", "probably the first" under the new law (hedged as required): facts.md Annual PAYE return deadline.
+- Persona review + human test 2026-11-14: rewrote E1 CEO L1 (A, B), E1 HR-lead L1 (B) and L2 (C), and E2 L1/L2. See work log.
 - Not used: payslips, leave, EWA, on-time claim, logo names.
 
 **Blocks launch:** `{{sender_signature}}` (sender name and title) is TBD in facts.md; weekly volume TBD.

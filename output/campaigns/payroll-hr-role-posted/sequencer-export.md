@@ -10,7 +10,7 @@ Suggested schedule: Mon-Fri, 08:00-17:00 Africa/Lagos (confirm)
 Stop rule: a reply from either the CEO or the HR lead at the same company stops both sub-campaigns
 
 Custom variables (one column per variable in the lead upload; the data tool resolves each per lead by route_cell and recipient_role):
-- e1l1, e1l2, social_proof, e2l1, e2l2, job_title, route_cell, recipient_role
+- e1l1, e1l2, social_proof, e2l2, job_title, route_cell, recipient_role
   (built-ins excluded: first_name, company_name, email, sender signature)
 
 Step 1 | wait: 0 days | new thread
@@ -28,11 +28,11 @@ Body:
 
 {{sender_signature}}
 
-Step 2 | wait: 3 days | same thread (subject "Re: <same subject>")
+Step 2 | wait: 3 days | same thread (subject "Re: <same subject>") | send only before 31 January 2027
 Body:
 {{first_name}},
 
-{{e2l1}}
+{One date worth knowing|One date to keep in mind} for whoever takes the {{job_title}} role: the annual PAYE return is due by 31 January, {and it's probably the first one|which is probably the first one} under the new tax law.
 
 {{e2l2}}
 
@@ -60,4 +60,4 @@ Body (hr_lead sub-campaign):
 {{sender_signature}}
 ```
 
-Line values for e1l1, e1l2, social_proof, e2l1 and e2l2 per cell and lens are in the spec's `## Copy` section. Convert `{{var}}` and `{a|b}` to your sequencer's syntax at upload.
+Line values for e1l1, e1l2, social_proof and e2l2 per cell and lens are in the spec's `## Copy` section. Convert `{{var}}` and `{a|b}` to your sequencer's syntax at upload.
