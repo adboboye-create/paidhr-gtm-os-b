@@ -80,6 +80,13 @@ Segments are from [signal-matrix.md](../../context/icp/signal-matrix.md): S1 log
 
 Proof names and numbers below come only from [facts.md](../../context/messaging/facts.md). Quotes are in [social-proof-sources.md](../../context/docs/research/social-proof-sources.md).
 
+**Facts gate (review 2026-11-14):** some angles below quote lines from the quote bank that are not yet in [facts.md](../../context/messaging/facts.md), so `/campaign-copy` will render them as placeholders until they are added and approved:
+- FAMASI **F1** "everything was manual" (C6), **F4** "As the team grew..." (C3, C19; Whisper only, captions garbled).
+- Heroshe **H7** "that burden just goes off my neck" (C5; Whisper only), **H8** "operational tasks... strategic tasks" (C1), **H9** "I would recommend Pade to any HR professional" (C8).
+- The annual PAYE penalty (₦100,000 then ₦50,000 a month) in C4 is from search-result summaries, not facts.md. Verify before quoting.
+
+facts.md already covers the FAMASI hour saved and the Heroshe remittance quotes (H2, H3, H5, H6), so C2 and C7 are clear today.
+
 ### C1. Payroll or HR role posted (Rank 1, Tier 1)
 
 - **Mother intent:** Hiring specific roles. Signal matrix U1.
