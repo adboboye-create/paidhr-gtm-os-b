@@ -24,7 +24,7 @@ Body:
 
 {{social_proof}}
 
-{Worth a look before the new hire starts?|Is the payroll system part of the plan before they start?|Worth sorting this before the new hire starts?}
+{Worth a look before the new hire starts?|Is the payroll system part of the plan before they start?}
 
 {{sender_signature}}
 
