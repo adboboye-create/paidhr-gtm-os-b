@@ -119,7 +119,7 @@ Hire type: 2 values. Title tier: 2 values. Stacked: 2 × 2 = **4 cells.**
 
 ### Proof available (facts.md)
 - Heroshe: receipt after each remittance (H2), "two weeks or more" before (H3), "in less than a click" (H5), confirmation call "I think the next two days" (H6).
-- Heroshe H8 ("I leave the software to do the operational tasks and I do the strategic tasks") and H9 ("I would recommend Pade to any HR professional…") added to facts.md on 2026-11-14. Approval open; re-check against the video before use.
+- Heroshe H8 ("I leave the software to do the operational tasks and I do the strategic tasks") and H9 ("I would recommend Pade to any HR professional…") added to facts.md on 2026-11-14. PaidHR sign-off not required (user decision 2026-11-14); re-check against the video before use.
 
 ---
 
@@ -168,7 +168,7 @@ Copy may use only these variables. Nothing about tools they used before, team si
 ## Copy
 
 **Scope:** Nigeria only. Channel: email (3 steps, day 0 / 3 / 10, same thread) + empty LinkedIn connection request after Email 1. Register: signal play.
-**Facts status:** every fact used is in [facts.md](../../../context/messaging/facts.md) but still "Approved by: Open". PaidHR sign-off required before launch. Heroshe quotes (H2, H3, H5, H8) still need a human listen against the video.
+**Facts status:** every fact used is in [facts.md](../../../context/messaging/facts.md). PaidHR sign-off is not required (user decision 2026-11-14, facts.md sign-off policy). Heroshe quotes (H2, H3, H5, H8) still need a human listen against the video.
 **Sender:** `{{sender_signature}}` is TBD in facts.md and blocks sending.
 **January expiry:** "January" appears in E1 L2, E1 CTAs A, B and D, E2 leader e2l1 and E3 leader CTA. From 1 Feb 2027 this sequence needs a post-January version (re-approved here), not just a new L2.
 **Persona review (2026-11-14):** 3 fixes applied: leader proof in past tense (2023 video), E2 receipt line as a product claim, E1 B-new "yours to decide on".
@@ -223,7 +223,7 @@ Copy may use only these variables. Nothing about tools they used before, team si
 >
 > {{sender_signature}}
 
-Facts trace: value prop variant B, tax law, annual PAYE return deadline, Heroshe H3/H5/H2 (leader proof), Heroshe H8 (practitioner proof). All in facts.md, approval Open.
+Facts trace: value prop variant B, tax law, annual PAYE return deadline, Heroshe H3/H5/H2 (leader proof), Heroshe H8 (practitioner proof). All in facts.md.
 
 ### Email 2: APPROVED 2026-11-14 (day 3, same thread)
 
@@ -269,7 +269,7 @@ Routing: title_tier (2 routes, exhaustive). New value vs E1: leaders get PaidHR'
 >
 > {{sender_name}}
 
-Facts trace: 2025 compliance volume (self-reported), receipt per remittance, employee self-service (WhatsApp/USSD caveat kept). Approval Open.
+Facts trace: 2025 compliance volume (self-reported), receipt per remittance, employee self-service (WhatsApp/USSD caveat kept).
 
 ### Email 3: APPROVED 2026-11-14 (day 10, same thread)
 
@@ -307,7 +307,7 @@ Routing: title_tier (2 routes, exhaustive). New value vs E1/E2: leaders get data
 >
 > {{sender_name}}
 
-Facts trace: Security (ISO 27001, NDPA). Approval Open.
+Facts trace: Security (ISO 27001, NDPA).
 
 ### LinkedIn
 

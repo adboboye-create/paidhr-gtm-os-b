@@ -626,7 +626,7 @@ In the `Ready to send` view, keep: name, title, company, cell, tenure stage, ema
 
 ## Part 11. Connect the sequencer
 
-**Build this, but don't run it.** The spec is not sendable yet: every fact is still "Approved by: Open" in facts.md, the sender name, title and signature are TBD, and the CRM and recently-contacted exclusions are missing.
+**Build this, but don't run it.** The spec is not sendable yet: the sender name, title and signature are TBD, the video quotes still need a human listen, and the CRM and recently-contacted exclusions are missing. (PaidHR sign-off on facts.md is not required, user decision 2026-11-14.)
 
 ### 11.1 The template (in the sequencer, not in Clay)
 
@@ -697,7 +697,7 @@ Settings from the copy skill: plain text on, open tracking off, ignore out-of-of
 | `e3cta` | `E3 CTA` |
 
 3. **Run condition:** `{{Ready to Contact?}} === true && {{Email Status}} === "valid" && {{Email Domain Matches?}} === true`.
-4. **Stop.** Don't run it. On launch day (after PaidHR signs off facts.md and the sender exists), run it on 1 row, check the lead appears correctly in the paused campaign, then run the rest.
+4. **Stop.** Don't run it. On launch day (once the sender exists and the video quotes are re-checked), run it on 1 row, check the lead appears correctly in the paused campaign, then run the rest.
 
 ### 11.3 LinkedIn
 
@@ -775,4 +775,4 @@ Found while writing this guide. **All 9 were applied to `workflow-spec.md` on 20
 8. **Still in role (signal 11, S9):** added as optional, recommended.
 9. **LinkedIn (section 7):** tool still TBD; requests go out from the `LinkedIn only` and `Ready to send` views until one is named.
 
-Still open in the spec: sender identity, CRM and sequencer exports, LinkedIn tool, PaidHR sign-off on facts.md.
+Still open in the spec: sender identity, CRM and sequencer exports, LinkedIn tool, human listen of the video quotes.
