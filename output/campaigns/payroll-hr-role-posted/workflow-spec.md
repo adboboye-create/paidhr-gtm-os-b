@@ -1,6 +1,6 @@
 # Workflow spec: Payroll or HR role posted (Nigeria, Kenya, Ghana)
 
-**Status:** STRUCTURE-APPROVED 2026-11-14 · amended 2026-11-14 (100-day cooldown; Nigeria + Kenya + Ghana; HR leads who joined from another company only; S6 never empty) · COPY-APPROVED 2026-11-14 (Nigeria only; E1 CEO + HR lead, E2, E3) · launch blocked on facts.md sign-off and sender identity
+**Status:** STRUCTURE-APPROVED 2026-11-14 · amended 2026-11-14 (100-day cooldown; Nigeria + Kenya + Ghana; HR leads who joined from another company only; S6 never empty) · COPY-APPROVED 2026-11-14 (Nigeria only; E1 CEO + HR lead, E2, E3) · Kenya and Ghana unblocked 2026-11-14 (PaidHR filing in KE and GH confirmed by user; KE/GH copy still to write) · launch blocked on facts.md sign-off and sender identity
 
 Built with `/build-workflow-spec` from idea **C1** in [campaign-strategy.md](../campaign-strategy.md). Methodology: [workflow-anatomy.md](../../../knowledge-base/playbooks/workflow-anatomy.md), [signal-matrix-framework.md](../../../knowledge-base/playbooks/signal-matrix-framework.md). Signal matrix row: **U1** in [signal-matrix.md](../../../context/icp/signal-matrix.md). Every name, number and claim comes from [facts.md](../../../context/messaging/facts.md) or `context/`. Anything unverified is a `{{placeholder}}` or marked TBD/INFERRED.
 
@@ -19,7 +19,7 @@ Built with `/build-workflow-spec` from idea **C1** in [campaign-strategy.md](../
 
 | Box | Rule | Source |
 |---|---|---|
-| Geo | Company HQ in Nigeria, Kenya or Ghana, and the job located in the same country. Nigeria (Lagos first) is the proven market. Kenya is a listed PaidHR market with no customer or regulation research yet. **Ghana is not a listed PaidHR market** (added by user decision 2026-11-14; PaidHR to confirm it serves Ghana) | [icp.md](../../../context/icp/icp.md), [company.md](../../../context/docs/research/company.md) |
+| Geo | Company HQ in Nigeria, Kenya or Ghana, and the job located in the same country. Nigeria (Lagos first) is the proven market. Kenya is a listed PaidHR market. Ghana is not publicly listed, but the user confirmed on 2026-11-14 that PaidHR runs payroll and files remittances in both. No Kenyan or Ghanaian customer yet | [icp.md](../../../context/icp/icp.md), [company.md](../../../context/docs/research/company.md), [kenya.md](../../../context/docs/research/kenya.md), [ghana.md](../../../context/docs/research/ghana.md) |
 | Size | 20 to 200 employees from company enrichment. Blank or outside 20 to 200 = excluded (no hold view) | [icp.md](../../../context/icp/icp.md) |
 | Industry | Any of S1 logistics, S2 manufacturing, S3 retail, S4 tech. Not a filter; context-clause only (section 4) | [signal-matrix.md](../../../context/icp/signal-matrix.md) |
 | Trigger | Job title matches Payroll Officer, Payroll Specialist, Payroll and Benefits, Compensation & Benefits, HR Officer, HR Generalist, HR Manager, HR Executive. Posted in the last 30 days | [signal-matrix.md](../../../context/icp/signal-matrix.md) U1 |
@@ -60,7 +60,7 @@ Built with `/build-workflow-spec` from idea **C1** in [campaign-strategy.md](../
 | S3 | Exclusion match | trigger (filter) | Domain or company name exact match against customer, competitor, agency and CRM lists; poster name regex `confidential\|recruit\|staffing\|outsourc` | boolean (true = drop) |
 | S4 | Role cluster | **router** | Title regex `payroll\|compensation\|benefits` → `payroll_role`; all other S1 passes → `hr_role` | enum: `payroll_role` / `hr_role` |
 | S5 | JD names statutory remittance | **router** | Job description regex `PAYE\|pension\|PFA\|PenCom\|NHF\|NSITF\|ITF\|NSSF\|SHIF\|NHIF\|housing levy\|SSNIT\|tier 2\|remittance\|statutory deduction` | boolean |
-| S6 | Remittances named in JD | context-clause | Regex extraction of which statutory items appear (only when S5 = true). Nigeria: PAYE, pension, NHF, NSITF. Kenya: PAYE, NSSF, SHIF/NHIF, Housing Levy. Ghana: PAYE, SSNIT, Tier 2 pension. PFA and PenCom map to "pension". If S5 fired but none of these is named (e.g. only "statutory deductions"), output = "statutory remittances" so the variable is never empty. These are read terms, not copy claims | list, joined ("PAYE and pension") |
+| S6 | Remittances named in JD | context-clause | Regex extraction of which statutory items appear (only when S5 = true). Nigeria: PAYE, pension, NHF, NSITF. Kenya: PAYE (also P10, iTax), NSSF, SHIF (NHIF and SHA map to SHIF), Housing Levy (AHL maps to Housing Levy). Ghana: PAYE (also GRA), SSNIT (Tier 1 maps to SSNIT), Tier 2 pension. NITA and Tier 3 are not extracted (not in facts.md). PFA and PenCom map to "pension". If S5 fired but none of these is named (e.g. only "statutory deductions"), output = "statutory remittances" so the variable is never empty. These are read terms, not copy claims | list, joined ("PAYE and pension") |
 | S7 | HR lead in seat | context-clause (feeds the cell D inference only) | Find People: title regex `HR Manager\|Head of HR\|People (Lead\|Manager)\|HR Lead` AND `start_date < posted_date` | boolean |
 | S7b | HR lead joined from another company | trigger (recipient 2 only) | S7 = true AND the experience entry before the current role is at a different company (LinkedIn company ID, or normalized name if no ID). No prior experience listed = false | boolean + name |
 | S10 | Country | context-clause | HQ country from enrichment; must equal job country | enum: NG / KE / GH. **Never routes** |
@@ -87,7 +87,7 @@ Every cell gets both recipients: the CEO always, the HR lead only where S7b = tr
 - `{{hr_lead_name}}` exists only where S7b = true. The CEO email never depends on it.
 - `{{job_title}}` and `{{job_board}}` exist in all cells (guaranteed by the trigger).
 - `{{segment}}` line is optional colour in every cell; `other` = no line.
-- **Country (S10) does not change the cell, but it limits the claims.** Nigeria-only lines ("2026 tax bands" in B, "fully updated for Nigeria's new tax law" in D) exist only where S10 = NG. For KE and GH, the "PaidHR files these remittances with a receipt" claim in A and C, and the payroll claims in B and D, are `{{placeholder}}` until facts.md confirms what PaidHR runs in that country. Heroshe and FAMASI are Nigerian proof; for KE and GH they can be used only as "a Nigerian team", never implied as local.
+- **Country (S10) does not change the cell, but it limits the claims.** Nigeria-only lines ("2026 tax bands" in B, "fully updated for Nigeria's new tax law" in D) exist only where S10 = NG. For KE and GH, A and C use the country filing line from facts.md (Kenya: PAYE, Housing Levy, SHIF and NSSF; Ghana: PAYE, SSNIT and Tier 2 pension), and B and D use the payroll claims without the Nigerian tax-law lines. Heroshe and FAMASI are Nigerian proof; for KE and GH they can be used only as "a Nigerian team", never implied as local.
 
 **Niche-native test:** every angle opens on the specific role they posted, and in A and C on the filings their own JD names.
 
@@ -95,7 +95,7 @@ Every cell gets both recipients: the CEO always, the HR lead only where S7b = tr
 - Heroshe H2, H3, H5, H6, the FAMASI hour and "fully updated for Nigeria's new tax law" are in [facts.md](../../../context/messaging/facts.md). All four cells have usable proof today.
 - Heroshe H8 ("operational tasks... strategic tasks") is not in facts.md; no angle depends on it.
 - The 31 Jan 2027 PAYE return date is INFERRED and not in facts.md. Not used in the angles; may become a `{{placeholder}}` timing line once verified. Nigeria only.
-- **Kenya and Ghana have no entries in facts.md**: no statutory filing capability, no customers, no claims. Research covers Nigerian regulation only ([market.md](../../../context/docs/research/market.md)). KE and GH accounts can be built and scored now, but can't be sent until facts.md has approved KE and GH lines. Ghana also needs PaidHR to confirm it is a served market.
+- **Kenya and Ghana are in facts.md as of 2026-11-14**: filing claims approved on the user's confirmation, local deadlines from official sources ([kenya.md](../../../context/docs/research/kenya.md), [ghana.md](../../../context/docs/research/ghana.md)). No local customer proof. Don't write "PaidHR serves Ghana" (not public).
 
 ## 6. Variables contract [ENGINE]
 
@@ -121,7 +121,7 @@ Copy can't mention headcount, funding, number of open roles, salary or any JD co
 - **Periodicity:** always-on, weekly. Scrape every Monday for posts from the last 7 days (first run looks back 30 days). An account enters a sequence within 7 days of detection.
 - **Re-trigger:** at most once per account every 100 days.
 - **Channel:** email. Three steps over about 10 days. CEO and HR lead in parallel threads; a reply from either stops both. LinkedIn out for v1.
-- **Launch window:** Nigeria before January 2027, so the annual PAYE return is still ahead of the prospect (timing context only until verified). Kenya and Ghana: no deadline researched; launch once facts.md is cleared.
+- **Launch window:** Nigeria before January 2027, so the annual PAYE return is still ahead of the prospect (timing context only until verified). Kenya and Ghana: monthly deadlines only (KE 9th and 9th working day; GH 14th and 15th), so no seasonal window. Context only, not a hook.
 - **Measure:** reply rate by `{{route_cell}}`, by `{{recipient_role}}` and by `{{country}}`, to test whether "hiring a payroll person" predicts buying software. Volume per week: TBD until the first scrape.
 
 ---
@@ -140,13 +140,13 @@ Copy can't mention headcount, funding, number of open roles, salary or any JD co
 - [x] Engine/ICP markers on every section
 - [x] Cadence and channel declared
 
-**Next:** `/campaign-copy` on this file. Open blockers for sending (not for copy): sender identity and CTA ladder in facts.md; weekly volume TBD; Kenya and Ghana claims missing from facts.md (and Ghana not confirmed as a PaidHR market).
+**Next:** `/campaign-copy` on this file. Open blockers for sending (not for copy): sender identity and CTA ladder in facts.md; weekly volume TBD; Kenya and Ghana copy not yet written (facts are now in facts.md).
 
 ---
 
 ## Copy
 
-**Scope:** Nigeria only (S10 = NG). Channel: email only. Sequence: 3 emails, day 0, 3, 10; CEO and HR lead in parallel threads; a reply from either stops both. Kenya and Ghana copy waits for approved facts.md lines.
+**Scope:** Nigeria only (S10 = NG). Channel: email only. Sequence: 3 emails, day 0, 3, 10; CEO and HR lead in parallel threads; a reply from either stops both. Kenya and Ghana copy not yet written; facts.md lines approved 2026-11-14, so run `/campaign-copy` for KE and GH when ready.
 **Facts status:** every fact used is in [facts.md](../../../context/messaging/facts.md) but still "Approved by: Open". PaidHR sign-off required before launch. FAMASI wording still to be checked against the video.
 
 ### Email 1 (day 0, new thread)
