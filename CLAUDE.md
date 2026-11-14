@@ -1,14 +1,15 @@
 # PaidHR GTM Context OS
 
 ## Company
-PaidHR (paidhr.com): HR and payroll platform for African businesses. Full description to fill in after research.
+PaidHR (paidhr.com): Lagos-based HR, payroll and statutory remittance platform with earned wage access, for businesses in Nigeria, Kenya and South Africa (source: context/docs/research/company.md).
 
 ## How this folder works
 - `.claude/skills/`: reusable Claude skills for repeat GTM tasks. Read when a task matches a skill.
-- `context/icp/`: ideal customer profiles and personas. Read before any targeting, list building or copy.
-- `context/positioning/`: category, differentiation and competitors. Read before writing anything that compares or pitches.
-- `context/messaging/`: value props, pain points and proof points. Read before writing any copy.
-- `context/brand-kit/`: voice, tone, visual and style rules. Read before producing any customer-facing asset.
+- `context/icp/`: `icp.md` (five-layer ICP, non-fits), `personas.md` (champion, buyer, influencer). Read before any targeting, list building or copy.
+- `context/positioning/`: `positioning.md`, `value-proposition.md`, `competitors.md`. Read before writing anything that compares or pitches.
+- `context/messaging/`: `messaging.md` (core message, pillars), `facts.md` (the only allowed names, numbers and claims). Read before writing any copy.
+- `context/brand-kit/`: `brand.md` (tone, key phrases). Read before producing any customer-facing asset.
+- `context/docs/`: `case-studies.md` (every customer story with source). Read before using a customer as proof.
 - `context/docs/research/`: raw research notes with sources. Read when you need to verify or cite a company fact.
 - `knowledge-base/playbooks/`: step-by-step repeatable GTM processes. Read before running a workflow.
 - `knowledge-base/learnings/`: what worked, what failed and why. Read before planning a new campaign or test.
