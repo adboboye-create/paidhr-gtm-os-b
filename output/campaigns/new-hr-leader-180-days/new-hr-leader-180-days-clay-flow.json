@@ -1,0 +1,32 @@
+{
+  "title": "New HR leader workflow in Clay",
+  "subtitle": "Each row is a table. Follow the numbers left to right. Paid steps only run on rows that passed every step before them.",
+  "lanes": [
+    {"id": "excl", "name": "Exclusions", "note": "you upload it", "dashed": true},
+    {"id": "hr", "name": "HR People", "note": "one row per person.\nThe main table.", "main": true},
+    {"id": "co", "name": "Companies", "note": "one row per company"}
+  ],
+  "steps": [
+    {"id": "x", "n": "0", "lane": "excl", "col": 2, "title": "Never contact", "text": "Customers, competitors, HR vendors, recently contacted", "cost": null},
+    {"id": "s1", "n": "1", "lane": "hr", "col": 1, "title": "Find new HR people", "text": "People search: Nigeria, HR titles, started in the last 6 months", "cost": "free"},
+    {"id": "s2", "n": "2", "lane": "hr", "col": 2, "title": "Free checks", "text": "Right title, leader or practitioner, months in role, not excluded", "cost": "free"},
+    {"id": "s3", "n": "3", "lane": "co", "col": 3, "title": "Send each company once", "text": "Duplicates removed, so you pay per company, not per person", "cost": "free"},
+    {"id": "s4", "n": "4", "lane": "co", "col": 4, "title": "Enrich company", "text": "HQ country, staff count, industry. In the ICP? Which segment?", "cost": "paid"},
+    {"id": "s5", "n": "5", "lane": "hr", "col": 5, "title": "Check the person", "text": "Company facts back. Enrich person: previous job, promoted or external?", "cost": "paid"},
+    {"id": "s6", "n": "6", "lane": "hr", "col": 6, "title": "Route to a cell", "text": "Hire type x title tier = A to D. One contact per company", "cost": "free", "highlight": true},
+    {"id": "s7", "n": "7", "lane": "hr", "col": 7, "title": "Find work email", "text": "Email waterfall, strict validation, ready rows only", "cost": "paid"},
+    {"id": "s8", "n": "8", "lane": "hr", "col": 8, "title": "Write email lines", "text": "Approved lines as formulas, picked by cell and tenure", "cost": "free"},
+    {"id": "s9", "n": "9", "lane": "hr", "col": 9, "title": "Push to sequencer", "text": "Built, not run. Campaign stays paused", "cost": "paid"}
+  ],
+  "arrows": [
+    {"from": "s1", "to": "s2"},
+    {"from": "x", "to": "s2", "label": "checked against", "dashed": true},
+    {"from": "s2", "to": "s3"},
+    {"from": "s3", "to": "s4"},
+    {"from": "s4", "to": "s5", "label": "company facts go back\nto each person"},
+    {"from": "s5", "to": "s6"},
+    {"from": "s6", "to": "s7"},
+    {"from": "s7", "to": "s8"},
+    {"from": "s8", "to": "s9"}
+  ]
+}
