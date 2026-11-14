@@ -1,6 +1,6 @@
 # Sequencer export: payroll-hr-role-posted (Nigeria)
 
-Generated 2026-11-14 from the approved copy in [workflow-spec.md](workflow-spec.md). Regenerate whenever the copy changes. Do not launch until facts.md sign-off and sender identity are done.
+Generated 2026-11-14 from the approved copy in [workflow-spec.md](workflow-spec.md). Regenerate whenever the copy changes. Do not launch until the sender identity is set and the video quotes are re-checked.
 
 ```
 Campaign: C1 payroll or HR role posted (NG), two sub-campaigns: ceo and hr_lead
@@ -24,7 +24,7 @@ Body:
 
 {{social_proof}}
 
-{Worth a look before the new hire starts?|Is the payroll system part of the plan before they start?|Worth sorting this before the new hire starts?}
+{Worth a look before the new hire starts?|Is the payroll system part of the plan before they start?}
 
 {{sender_signature}}
 

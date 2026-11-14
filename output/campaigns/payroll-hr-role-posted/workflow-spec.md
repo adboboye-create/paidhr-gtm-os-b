@@ -1,6 +1,6 @@
 # Workflow spec: Payroll or HR role posted (Nigeria, Kenya, Ghana)
 
-**Status:** STRUCTURE-APPROVED 2026-11-14 · amended 2026-11-14 (100-day cooldown; Nigeria + Kenya + Ghana; HR leads who joined from another company only; S6 never empty) · COPY-APPROVED 2026-11-14 (Nigeria only; E1 CEO + HR lead, E2, E3) · Kenya and Ghana unblocked 2026-11-14 (PaidHR filing in KE and GH confirmed by user; KE/GH copy still to write) · launch blocked on facts.md sign-off and sender identity
+**Status:** STRUCTURE-APPROVED 2026-11-14 · amended 2026-11-14 (100-day cooldown; Nigeria + Kenya + Ghana; HR leads who joined from another company only; S6 never empty) · COPY-APPROVED 2026-11-14 (Nigeria only; E1 CEO + HR lead, E2, E3; 4 review fixes applied 2026-11-14) · Kenya and Ghana unblocked 2026-11-14 (PaidHR filing in KE and GH confirmed by user; KE/GH copy still to write) · launch blocked on sender identity (PaidHR sign-off not required, user decision 2026-11-14)
 
 Built with `/build-workflow-spec` from idea **C1** in [campaign-strategy.md](../campaign-strategy.md). Methodology: [workflow-anatomy.md](../../../knowledge-base/playbooks/workflow-anatomy.md), [signal-matrix-framework.md](../../../knowledge-base/playbooks/signal-matrix-framework.md). Signal matrix row: **U1** in [signal-matrix.md](../../../context/icp/signal-matrix.md). Every name, number and claim comes from [facts.md](../../../context/messaging/facts.md) or `context/`. Anything unverified is a `{{placeholder}}` or marked TBD/INFERRED.
 
@@ -147,7 +147,7 @@ Copy can't mention headcount, funding, number of open roles, salary or any JD co
 ## Copy
 
 **Scope:** Nigeria only (S10 = NG). Channel: email only. Sequence: 3 emails, day 0, 3, 10; CEO and HR lead in parallel threads; a reply from either stops both. Kenya and Ghana copy not yet written; facts.md lines approved 2026-11-14, so run `/campaign-copy` for KE and GH when ready.
-**Facts status:** every fact used is in [facts.md](../../../context/messaging/facts.md) but still "Approved by: Open". PaidHR sign-off required before launch. FAMASI wording still to be checked against the video.
+**Facts status:** every fact used is in [facts.md](../../../context/messaging/facts.md). PaidHR sign-off is not required (user decision 2026-11-14, facts.md sign-off policy). Still re-check the FAMASI and Heroshe video wording before launch.
 
 ### Email 1 (day 0, new thread)
 
@@ -161,7 +161,7 @@ Copy can't mention headcount, funding, number of open roles, salary or any JD co
 + A (S4 = payroll_role AND S5 = true): From the {{job_title}} post on {{job_board}}, filing {{remittances_named}} is part of the job, so my guess is those filings have outgrown being a side task.
 + B (S4 = payroll_role AND S5 = false): Hiring a {{job_title}} tells me the monthly payroll run at {{company_name}} probably needs its own owner now.
 + C (S4 = hr_role AND S5 = true): The {{job_title}} post on {{job_board}} includes filing {{remittances_named}}, so I'd guess those filings will sit on the HR desk next to everything else.
-+ D (S4 = hr_role AND S5 = false): Hiring a {{job_title}} suggests {{company_name}} is building out HR, and payroll probably still sits with you or finance for now.
++ D (S4 = hr_role AND S5 = false): Hiring for the {{job_title}} role suggests {{company_name}} is building out HR, and payroll probably still sits with you or finance for now.
 
 **L2 (`{{e1l2}}`)**
 + A: PaidHR files {{remittances_named}} and sends a receipt after each remittance, so whoever you hire checks receipts instead of doing the filing.
@@ -170,12 +170,12 @@ Copy can't mention headcount, funding, number of open roles, salary or any JD co
 + D: PaidHR keeps payroll and PAYE, pension, NHF and NSITF remittance in one place, so the new HR hire starts on one system instead of building their own process.
 
 **Proof (`{{social_proof}}`)**
-+ A: Heroshe, a shipping company, used to wait "two weeks or more" for remittance. With PaidHR it happens "in less than a click", with a receipt after each one.
++ A: Heroshe, a shipping company, used to wait "two weeks or more" for remittance. With PaidHR it happens "in less than a click".
 + B: FAMASI, a pharmacy software company, saved about one hour per payroll run with PaidHR.
 + C: Heroshe's HR team used to wait "two weeks or more" for remittance. Now it happens "in less than a click", and a receipt follows.
 + D: Once FAMASI moved payroll to PaidHR, it saved about one hour per payroll run.
 
-**CTA (static):** `{Worth a look before the new hire starts?|Is the payroll system part of the plan before they start?|Worth sorting this before the new hire starts?}`
+**CTA (static):** `{Worth a look before the new hire starts?|Is the payroll system part of the plan before they start?}`
 
 **Sample (cell A, CEO):**
 
@@ -187,7 +187,7 @@ Copy can't mention headcount, funding, number of open roles, salary or any JD co
 >
 > PaidHR files PAYE and pension and sends a receipt after each remittance, so whoever you hire checks receipts instead of doing the filing.
 >
-> Heroshe, a shipping company, used to wait "two weeks or more" for remittance. With PaidHR it happens "in less than a click", with a receipt after each one.
+> Heroshe, a shipping company, used to wait "two weeks or more" for remittance. With PaidHR it happens "in less than a click".
 >
 > Worth a look before the new hire starts?
 >
@@ -201,7 +201,7 @@ Same subject, CTA and body shape as the CEO lens. Proof lines are the CEO-lens p
 + A: The {{job_title}} role your team has open on {{job_board}} includes filing {{remittances_named}}, so I imagine you'll be handing those filings to the new hire soon.
 + B: Adding a {{job_title}} to your team probably means the monthly payroll run at {{company_name}} is getting its own owner.
 + C: The {{job_title}} post on {{job_board}} lists filing {{remittances_named}}, which I'd guess is one more task you'd hand over and then keep checking.
-+ D: With a {{job_title}} joining HR at {{company_name}}, my guess is you're deciding how payroll and remittance will run as the team grows.
++ D: With a new {{job_title}} joining HR at {{company_name}}, my guess is you're deciding how payroll and remittance will run as the team grows.
 
 **L2 (`{{e1l2}}`)**
 + A: PaidHR files {{remittances_named}} and sends a receipt after each remittance, so the person joining your team starts by checking receipts, not filing.
@@ -232,12 +232,12 @@ Same subject, CTA and body shape as the CEO lens. Proof lines are the CEO-lens p
 **Body shape:** `{{first_name}},` then L1, L2, CTA, `{{sender_signature}}`. Routes exhaustive by cell group, no fallback. New value versus Email 1: the tax-law update plus PaidHR's own volume figures.
 
 **L1 (`{{e2l1}}`)**
-+ A, C: On the {{remittances_named}} side, PaidHR is fully updated for Nigeria's new tax law, effective 1 January 2026.
-+ B, D: For whoever takes the {{job_title}} role, PaidHR is fully updated for Nigeria's new tax law, effective 1 January 2026.
++ A, C: Whoever takes on {{remittances_named}} at {{company_name}} will be filing under Nigeria's new tax law, which took effect on 1 January 2026, and PaidHR is fully updated for it.
++ B, D: Whoever takes the {{job_title}} role will likely be working with payroll under Nigeria's new tax law, which took effect on 1 January 2026, and PaidHR is fully updated for it.
 
 **L2 (`{{e2l2}}`)**
-+ A, C: For scale: ₦934M in PAYE filed and ₦754M in pension processed in 2025.
-+ B, D: For scale: ₦119.2bn in payroll processed year to date in 2026.
++ A, C: In 2025, PaidHR filed ₦934M in PAYE and processed ₦754M in pension.
++ B, D: So far in 2026, PaidHR has processed ₦119.2bn in payroll.
 
 **CTA (static):** `{Would it help to see one month of payroll and filings in PaidHR?|Want to see what one month of payroll and filings looks like in PaidHR?}`
 
@@ -247,9 +247,9 @@ Same subject, CTA and body shape as the CEO lens. Proof lines are the CEO-lens p
 >
 > Tunde,
 >
-> For whoever takes the Payroll Specialist role, PaidHR is fully updated for Nigeria's new tax law, effective 1 January 2026.
+> Whoever takes the Payroll Specialist role will likely be working with payroll under Nigeria's new tax law, which took effect on 1 January 2026, and PaidHR is fully updated for it.
 >
-> For scale: ₦119.2bn in payroll processed year to date in 2026.
+> So far in 2026, PaidHR has processed ₦119.2bn in payroll.
 >
 > Would it help to see one month of payroll and filings in PaidHR?
 >
@@ -294,4 +294,4 @@ If payroll and filings sit with someone else at {{company_name}}, {who would be 
 - ₦934M PAYE, ₦754M pension (2025); ₦119.2bn payroll 2026 YTD: facts.md approved claims (PaidHR's own figures, self-reported).
 - Not used: payslips, leave, EWA, on-time claim, logo names.
 
-**Blocks launch:** facts.md approval is Open for every line above; `{{sender_signature}}` (sender name and title) is TBD in facts.md; weekly volume TBD.
+**Blocks launch:** `{{sender_signature}}` (sender name and title) is TBD in facts.md; weekly volume TBD.

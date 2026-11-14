@@ -1,7 +1,8 @@
 # PaidHR: Authorized Copy Facts
 
 > The ONLY source of names, numbers and claims for prospect-facing copy (`/campaign-copy` FACTS GATE). Anything not listed here renders as `{{placeholder}}`, never from memory.
-> Every entry comes from `context/docs/research/`. Nothing here has been approved by PaidHR yet: "Approved by" is open until someone signs off.
+> Every entry comes from `context/docs/research/`.
+> **Sign-off policy (user decision, 2026-11-14):** PaidHR team sign-off is not required. Every claim listed here is usable in copy as phrased; "Open" in the "Approved by" column no longer blocks launch. Accuracy caveats still apply (re-check video quotes; keep self-reported numbers framed as PaidHR's own).
 
 **Last updated:** 2026-11-14 by Claude (from research files)
 
@@ -39,6 +40,7 @@ Product one-liner (context, not copy): all-in-one HR, payroll and statutory remi
 | Employee self-service | "Staff can request payslips and leave themselves, in the app or on WhatsApp and USSD" (WhatsApp/USSD only "where your company has enabled those features") | paidhr.com (company.md lines 39, 76: "Employee Self Service", "request leave or payslips") | Open; added 2026-11-14 for payroll-hr-role-posted angles B and D |
 | Heroshe: time for strategic work | "So I leave the software to do the operational tasks and I do the strategic tasks." (quote as is; the full line also mentions anniversary notifications) | https://youtu.be/1L3R7CMEmjI?t=97 (research/social-proof-sources.md H8, both transcripts agree) | Open; added 2026-11-14 for new-hr-leader-180-days; video quote, re-check before use |
 | Heroshe: recommendation to HR | "I would recommend Pade to any HR professional. If you're a young HR professional or even if you're mid-level. I think Pade will help you to do a great job." ("Pade" allowed only inside this quote) | https://youtu.be/1L3R7CMEmjI?t=108 (research/social-proof-sources.md H9, both transcripts agree) | Open; added 2026-11-14 for new-hr-leader-180-days; video quote, re-check before use |
+| Annual PAYE return deadline | "The annual PAYE return is due by 31 January." Say flat. That the 2027 return is the first under the new tax law is INFERRED: hedge it ("probably the first"). States can extend (Edo moved 2026 to 14 February), so never call it a fixed date for every state | research/market.md lines 38-48 (Mondaq, EIRS, arbiterz; Edo extension gpa.net) | Open; added 2026-11-14 for new-hr-leader-180-days |
 | Funding | $1.8M seed led by Accion Venture Lab (June 2025) | Accion release (company.md) | Open |
 | FAMASI result | Saved about one hour per payroll run | https://youtu.be/thPhRuim05g (customer-videos.md) | Open; verify wording against video |
 | Heroshe result | Remittance "in less than a click"; a receipt after each remittance; a call "I think the next two days" confirming it was remitted; versus "two weeks or more" before | https://youtu.be/1L3R7CMEmjI?t=41 (research/social-proof-sources.md H2, H3, H5, H6) | Open; Whisper-checked, still needs a human listen |
